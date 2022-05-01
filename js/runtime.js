@@ -5,7 +5,7 @@ setInterval(() => {
   let time = new Array(0, 0, 0, 0, 0);
 
   var nol = function(h){
-    return h>9?h:'0'+h;
+    return h>23?h:'0'+h;
   }
   if (second >= 365 * 24 * 3600) {
     time[0] = parseInt(second / (365 * 24 * 3600));
